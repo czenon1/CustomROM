@@ -84,6 +84,8 @@ Note that repo sync will take time depending on your internet connection.
 To build a ROM for a specific device, we usually need three device trees i.e., device trees, kernel and vendor trees. 
 For OnePlus 7 we have 2, 1 and 2 directories respectively in device trees, kernel and vendor tree. The number of directories might vary from device to device. You can easily find that by checking your device specific trees from Lineage OS GitHub (if available). Note that device codename for OnePlus 7 is guacamoleb.  You need to clone all the directories below from GitHub into your source code. For OnePlus 7 the directories are:
 ## Device trees
+- [adroid/device/xiaomi/rosemary](https://github.com:LineageOS/android_device_xiaomi_rosemary)
+- 
 - [android/device/oneplus/guacamoleb](https://github.com/LineageOS/android_device_oneplus_guacamoleb/tree/lineage-20)
 - [android/device/oneplus/sm8150-common](https://github.com/LineageOS/android_device_oneplus_sm8150-common/tree/lineage-20) <br /> <br />
 Clone them to the respective directories. For example, clone "android_device_oneplus_guacamoleb" in "android/device/oneplus/guacamoleb" directory. The command for this example would be:
